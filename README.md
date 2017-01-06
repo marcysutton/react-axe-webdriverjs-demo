@@ -11,6 +11,8 @@ npm install
 
 ## Run tests
 
+The webdriver tests can be found in [e2e-test/test.js](e2e-test/test.js). It uses the Mocha framework but you could easily replace that with something else.
+
 In the project directory, start the web server:
 ```
 npm start
@@ -20,5 +22,4 @@ In a separate tab, run the tests:
 ```
 npm run webdriver
 ```
-
 The project comes packaged with 0 accessibility violations. You would likely want to write a test for each page and state in your app, including things like opening menus or modal dialogs.
